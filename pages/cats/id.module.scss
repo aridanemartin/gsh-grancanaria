@@ -1,0 +1,46 @@
+.detailWrapper{
+    height: 100vh;
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    .detail{
+        padding: 1rem;
+        border-radius: 1rem;
+        min-width: 350px;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        .label{
+            font-weight: bold;
+        }
+    }
+    .adopter{
+        background: #ccc;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+    .danger{
+        color: red;
+    }
+    .buttons{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1.5rem;
+        button{
+            cursor: pointer;
+            border-style: none;
+            border-radius: 2rem;
+            margin-right: 1rem;
+            background: #222222;
+            color: white;
+            padding: 1rem 2rem;
+            &:hover{
+                background: #333333;
+            }
+        }
+    }
+}

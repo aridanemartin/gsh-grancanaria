@@ -1,0 +1,18 @@
+.cardWrapper{
+    margin: 1rem;
+    padding: 1rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.cardTitle{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.imageContainer{
+    position: relative;
+    height: 1.5rem;
+    width: 1.5rem;
+    margin-right: 0.5rem;
+}
